@@ -39,10 +39,10 @@ This will show a modal with a login with google button.
 If you are building your own UI you can directly call the login methods
 ### login
 
-````skadiWallet.login('google')```
+```skadiWallet.login('google')```
 
 ## logout
-````skadiWallet.logout('google')```
+```skadiWallet.logout('google')```
 
 
 ## User Details
