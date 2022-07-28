@@ -41,6 +41,17 @@ If you are building your own UI you can directly call the login methods
 
 ```skadiWallet.login('google')```
 
+
+### isConnected
+
+```
+let isConnected = skadiWallet.isConnected();
+console.log(isConnected); // will be a boolean
+```
+
+This will show a modal with a login with google button.
+If you are building your own UI you can directly call the login methods
+
 ## logout
 ```skadiWallet.logout('google')```
 
