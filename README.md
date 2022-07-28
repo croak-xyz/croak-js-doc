@@ -28,7 +28,7 @@ let skadiWallet = new SkadiWallet({
 
 ## Login/Logout
 
-To login or logout a user, you can use croak's prebuild UI or build your own and call SDK methods.
+To login or logout a user, you can use croak's prebuild UI or built your own and call SDK methods.
 To use prebuilt UI
 
 ### showConnectModal
