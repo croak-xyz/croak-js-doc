@@ -50,7 +50,7 @@ console.log(isConnected); // will be a boolean
 ```
 
 ## logout
-```skadiWallet.logout('google')```
+```croakWallet.logout('google')```
 
 
 ## User Details
