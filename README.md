@@ -5,11 +5,11 @@ Guide for installation and usage of Croak's Web3 walllet.
 
 NPM
 ```
-npm i skadi-wallet-sdk
+npm i croak-wallet-sdk
 ```
 Yarn
 ```
-yarn add skadi-wallet-sdk
+yarn add croak-wallet-sdk
 ```
 ## Usage
 
