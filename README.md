@@ -14,9 +14,9 @@ yarn add croak-wallet-sdk
 ## Usage
 
 ### Initialization
-First we need to ensure a div with id `skadi-wallet` in the html body.
+First we need to ensure a div with id `croak-wallet` in the html body.
  
-```<div id="skadi-wallet"></div>```
+```<div id="croak-wallet"></div>```
 ``` 
 import { CroakWallet } from 'croak-wallet-sdk/wallet';
 let croakWallet = new CroakWallet({
