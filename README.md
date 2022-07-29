@@ -18,12 +18,11 @@ First we need to ensure a div with id `croak-wallet` in the html body.
  
 ```<div id="croak-wallet"></div>```
 ``` 
-import { CroakWallet } from 'croak-wallet-sdk/wallet';
-let croakWallet = new CroakWallet({
-            chain:'polygon',
-            authNetwork: 'testnet',
-            onLoginChange: ()=>{console.log('yo');}
-        });
+import { croakWallet } from 'croak-wallet-sdk/wallet';
+await croakWallet.init({
+                chain:'polygon',
+                authNetwork: 'testnet'}
+            );
 ```
 
 ## Login/Logout
